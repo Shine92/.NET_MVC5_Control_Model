@@ -1,0 +1,13 @@
+﻿@model test0919_HelloMVC.Models.UserDataModel
+@{
+    ViewBag.Title = "SayHello";
+}
+
+@*<h2>SayHello @ViewBag.UserName</h2>
+<p>Account: @ViewBag.Account</p>
+<p>Password: @ViewBag.Password</p>*@
+
+<h2>SayHello @Model.UserName</h2>
+<p>Account: @Model.Account</p>
+<p>Password: @Model.Password</p>
+
